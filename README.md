@@ -20,11 +20,11 @@
 
 ## Descripción
 
+La meta de este trabajo será el estudio de un dataset para elaborar un modelo que prediga si un usuario dará más escuchas a una canción que ha sido escuchada una vez por parte del mismo.
+
 Nuestro dataset consiste en varias tablas con información relativa a canciones, usuarios y escuchas realizadas por estos usuarios en la aplicación KKBox, plataforma musical líder en la mayoría de países asiáticos. El objetivo del trabajo será idear un sistema de recomendación de canciones.
 
 KKBOX proporciona un conjunto de datos de entrenamiento que consiste en información del primer evento de escucha observable para cada par único de usuario y canción dentro de un tiempo específico. El objetivo será predecir las posibilidades de que un usuario escuche una canción repetidamente después de que se active el primer evento de escucha. Si hay eventos de escucha activados dentro de un mes después del primer evento de escucha observable del usuario, su objetivo se marca 1 y 0 de lo contrario en el conjunto de entrenamiento. La misma regla se aplica al conjunto de test.
-
-En resumidas cuentas la meta del trabajo será el estudio del dataset para elaborar un modelo que prediga si un usuario dará más escuchas a una canción que ha sido escuchada una vez por parte del mismo.
 
 La idea de este trabajo tiene su origen en un reto por parte de la conferencia *International Conference on Web Search and Data Mining* (WSDM), que proporciona este dataset donado por la propia aplicación KKBox, a los usuarios de Kaggle ML para elaborar un mejor modelo de recomendación musical que el suyo en 2018.
 
