@@ -1,3 +1,6 @@
+# Ignore kaggle_data folder
+kkbox_data/
+
 # Ignore Python bytecode
 __pycache__/
 *.py[cod]
@@ -9,6 +12,5 @@ __pycache__/
 *.zip
 *.7z
 
-# Ignore kaggle_data folder
-kaggle_data/
+
 
