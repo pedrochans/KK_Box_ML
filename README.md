@@ -33,8 +33,6 @@ Pedro Chans Fanego.
 ## Instrucciones para el usuario
 
 Para poder descargar los datos desde Kaggle, necesitas una API key de Kaggle.
-
-Para poder descargar los datos desde Kaggle, necesitas una API key de Kaggle.
 1. Ve a tu cuenta de Kaggle (https://www.kaggle.com/account)
 2. En la sección API, haz clic en "Create New API Token". Esto descargará el archivo `kaggle.json`.
 3. Coloca el archivo `kaggle.json` en la carpeta `~/.kaggle/` (en sistemas UNIX como Linux/Mac) o en `C:\Users\TU_USUARIO\.kaggle\` (en Windows).
