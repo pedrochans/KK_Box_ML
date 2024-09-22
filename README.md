@@ -1,26 +1,30 @@
 # Recomendación musical en KKBox
 
-## Índice
+# KKBox Music Recommendation Challenge
 
-- [Descripción](#descripción)
-- [Índice](#índice)
-- [Instrucciones para el usuario](#instrucciones-para-el-usuario)
-- [Instalación](#instalación)
-- [Análisis de los datos](#análisis-de-los-datos)
-- [Ingeniería de variables](#ingeniería-de-variables)
-- [Entrenamiento del modelo](#entrenamiento-del-modelo)
-- [Resultados y conclusión](#resultados-y-conclusión)
-- [Anexo](#anexo)
-    - [Estudios preliminares](#estudios-preliminares)
-    - [Elementos no incluídos](#elementos-no-incluídos)
-    - [Código](#código)
-- [Uso](#uso)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
+Welcome to the **KKBox Music Recommendation Challenge**! This project aims to develop a model that predicts whether a user will listen to a song again after their first listen. Dive into the world of music data and machine learning with us!
 
-## Descripción
+## 📋 Índice
 
-La meta de este trabajo será el estudio de un dataset para elaborar un modelo que prediga si un usuario dará más escuchas a una canción que ha sido escuchada una vez por parte del mismo.
+- [📖 Descripción](#📖-descripción)
+- [📋 Índice](#📋-índice)
+- [👤 Instrucciones para el usuario](#👤-instrucciones-para-el-usuario)
+- [⚙️ Instalación](#⚙️-instalación)
+- [📊 Análisis de los datos](#📊-análisis-de-los-datos)
+- [🔧 Ingeniería de variables](#🔧-ingeniería-de-variables)
+- [🤖 Entrenamiento del modelo](#🤖-entrenamiento-del-modelo)
+- [🏆 Resultados y conclusión](#🏆-resultados-y-conclusión)
+- [📎 Anexo](#📎-anexo)
+    - [🔍 Estudios preliminares](#🔍-estudios-preliminares)
+    - [📂 Elementos no incluídos](#📂-elementos-no-incluídos)
+    - [💻 Código](#💻-código)
+- [🚀 Uso](#🚀-uso)
+- [🤝 Contribuciones](#🤝-contribuciones)
+- [📜 Licencia](#📜-licencia)
+
+## 📖 Descripción
+
+La meta de este trabajo es estudiar un dataset para elaborar un modelo que prediga si un usuario dará más escuchas a una canción que ha sido escuchada una vez por parte del mismo.
 
 Nuestro dataset consiste en varias tablas con información relativa a canciones, usuarios y escuchas realizadas por estos usuarios en la aplicación KKBox, plataforma musical líder en la mayoría de países asiáticos. El objetivo del trabajo será idear un sistema de recomendación de canciones.
 
@@ -30,7 +34,7 @@ La idea de este trabajo tiene su origen en un reto por parte de la conferencia *
 
 Pedro Chans Fanego.
 
-## Instrucciones para el usuario
+## 👤 Instrucciones para el usuario
 
 Para poder descargar los datos desde Kaggle, necesitas una API key de Kaggle.
 1. Ve a tu cuenta de Kaggle (https://www.kaggle.com/account)
@@ -40,7 +44,7 @@ Para poder descargar los datos desde Kaggle, necesitas una API key de Kaggle.
 
 Alternativa manual: navega a la URL https://www.kaggle.com/competitions/kkbox-music-recommendation-challenge/data, descarga y descomprime los archivos en una carpeta `/kaggle_data` en la misma ubicación que el notebook.
 
-## Instalación
+## ⚙️ Instalación
 
 Para instalar las dependencias necesarias, ejecuta el siguiente comando:
 
@@ -48,40 +52,45 @@ Para instalar las dependencias necesarias, ejecuta el siguiente comando:
 pip install -r requirements/requirements.txt
 ```
 
-## Análisis de los datos
+## 📊 Análisis de los datos
 
 Comenzaremos el trabajo con un breve análisis. Leeremos los datos, mostraremos el tabular, describiremos las columnas e imprimiremos una fila de cada tabla para tener una idea inicial.
 
-## Ingeniería de variables
+## 🔧 Ingeniería de variables
 
 En esta sección, realizaremos la ingeniería de variables necesaria para preparar los datos para el modelo de aprendizaje automático.
 
-## Entrenamiento del modelo
+## 🤖 Entrenamiento del modelo
 
 Entrenaremos varios modelos de aprendizaje automático y seleccionaremos el mejor basado en métricas de rendimiento.
 
-## Resultados y conclusión
+## 🏆 Resultados y conclusión
 
 Presentaremos los resultados obtenidos y las conclusiones derivadas del análisis y modelado de los datos.
 
-## Anexo
+## 📎 Anexo
 
-### Estudios preliminares
+### 🔍 Estudios preliminares
 
 Incluiremos estudios preliminares realizados durante el análisis de los datos.
 
-### Elementos no incluídos
+### 📂 Elementos no incluídos
 
 Mencionaremos elementos que no fueron incluidos en el análisis final.
 
-### Código
+### 💻 Código
 
 Proporcionaremos el código utilizado para el análisis y modelado de los datos.
 
-## Contribuciones
+## 🚀 Uso
+
+Para ejecutar el proyecto, sigue las instrucciones detalladas en las secciones anteriores y utiliza los scripts proporcionados en el repositorio.
+
+## 🤝 Contribuciones
 
 Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request para contribuir a este proyecto.
 
-## Licencia
+## 📜 Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
